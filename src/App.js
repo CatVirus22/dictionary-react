@@ -8,7 +8,7 @@ function App() {
           <div className="row d-flex justify-content-start">
             <p>Dictionary app UwU</p>
             <a
-              className="App-link"
+              className="App-link pt-5"
               href="https://reactjs.org"
               target="_blank"
               rel="noopener noreferrer"
