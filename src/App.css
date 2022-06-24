@@ -13,9 +13,7 @@
   display: inline-block;
 }
 
-.App-link {
-  color: #61dafb;
-}
+/* Search */
 
 .fa-search {
   color: beige;
@@ -25,6 +23,13 @@
 
 button:focus {
   box-shadow: 0 0 0 rgb(255, 255, 255) !important;
+}
+
+h1 {
+  font-size: 36px;
+  color: white;
+  font-family: "Roboto Mono", monospace;
+  font-weight: bolder;
 }
 
 /* Footer */
