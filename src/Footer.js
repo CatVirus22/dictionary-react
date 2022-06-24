@@ -8,7 +8,7 @@ export default function Footer() {
         className="row d-flex justify-content-start pt-4"
         data-ride="carousel"
       >
-        <div className="col pb-2 pt-2">
+        <div className="col pb-2">
           <div className="coder">
             <a
               href="https://github.com/CatVirus22/dictionary-react"
