@@ -1,5 +1,6 @@
 import "./App.css";
 import Search from "./Search";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -11,9 +12,11 @@ function App() {
             className="book"
             alt="book-pic"
             src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/undefined/external-dictionary-online-education-flaticons-lineal-color-flat-icons.png"
+            title="click to get icon"
           />
         </div>
         <Search />
+        <Footer />
       </div>
     </div>
   );
