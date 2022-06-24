@@ -1,23 +1,20 @@
 import "./App.css";
+import Search from "./Search";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <div className="App container pt-5">
-          <div className="row d-flex justify-content-start">
-            <p>Dictionary app UwU</p>
-            <a
-              className="App-link pt-5"
-              href="https://reactjs.org"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Mirri Cuca Leyen
-            </a>
-          </div>
+    <div className="App container pt-5">
+      <div className="row d-flex justify-content-center">
+        <div className="col-sm-6 header">
+          <span className="title">Let's find your word </span>
+          <img
+            className="book"
+            alt="book-pic"
+            src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/undefined/external-dictionary-online-education-flaticons-lineal-color-flat-icons.png"
+          />
         </div>
-      </header>
+        <Search />
+      </div>
     </div>
   );
 }

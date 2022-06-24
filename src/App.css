@@ -1,16 +1,28 @@
-.App {
-  text-align: center;
-}
-
-.App-header {
+#root {
   background-color: #282c34;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  font-size: calc(10px + 2vmin);
+}
+
+.title {
+  font-size: 60px;
   color: white;
+  font-family: "Caveat", cursive;
+}
+
+.book {
+  display: inline-block;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.fa-search {
+  color: beige;
+  width: auto;
+  height: auto;
+}
+
+button:focus {
+  box-shadow: 0 0 0 rgb(255, 255, 255) !important;
 }
