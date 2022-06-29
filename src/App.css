@@ -25,13 +25,35 @@ button:focus {
   box-shadow: 0 0 0 rgb(255, 255, 255) !important;
 }
 
-h1 {
-  font-size: 36px;
+/* Result */
+
+.result {
+  font-size: 48px;
   color: white;
   font-family: "Roboto Mono", monospace;
   font-weight: bolder;
+  text-transform: capitalize;
 }
 
+.phonetic {
+  font-size: 26px;
+  color: white;
+  font-family: "Roboto Mono", monospace;
+  font-style: italic;
+}
+
+.meanings {
+  font-size: 18px;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.speech {
+  font-size: 22px;
+  color: salmon;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: capitalize;
+}
 /* Footer */
 
 .coder {

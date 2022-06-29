@@ -1,12 +1,14 @@
 import React, { useState } from "react";
 import "./App.css";
 import axios from "axios";
+import Results from "./Results.js";
 
 export default function Search() {
   let [input, setInput] = useState();
+  let [result, setResult] = useState(null);
 
   function handleResponse(response) {
-    console.log(response.data[0]);
+    setResult(response.data[0]);
   }
 
   function searching(event) {
@@ -42,9 +44,7 @@ export default function Search() {
           </button>
         </form>
       </div>
-      <div className="col-sm-9 pb-3">
-        <h1 className="result pt-3">daasasteicons</h1>
-      </div>
+      <Results result={result} />
     </div>
   );
 }
