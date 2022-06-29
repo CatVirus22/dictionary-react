@@ -4,10 +4,10 @@ import "./App.css";
 export default function Footer() {
   return (
     <div
-      className="row d-flex justify-content-center fixed-bottom pb-3"
+      className="row d-flex justify-content-center navbar-fixed-bottom pb-3"
       data-ride="carousel"
     >
-      <div className="col-sm-6">
+      <div className="col-sm-9 pe-0 ps-0">
         <div className="coder">
           <a
             href="https://github.com/CatVirus22/dictionary-react"
