@@ -7,7 +7,7 @@ export default function Footer() {
       className="row d-flex justify-content-center navbar-fixed-bottom pb-3"
       data-ride="carousel"
     >
-      <div className="col-sm-9 pe-0 ps-0">
+      <div className="col-sm-9 pt-5">
         <div className="coder">
           <a
             href="https://github.com/CatVirus22/dictionary-react"

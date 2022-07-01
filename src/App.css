@@ -48,11 +48,16 @@ button:focus {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.examples {
+  font-style: italic;
+  text-align: right;
+}
 .speech {
   font-size: 22px;
   color: salmon;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-transform: capitalize;
+  font-style: oblique;
 }
 /* Footer */
 
