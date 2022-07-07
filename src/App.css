@@ -15,10 +15,15 @@
 
 /* Search */
 
-.fa-search {
+.fa-search,
+.fa-volume-up {
   color: beige;
   width: auto;
   height: auto;
+}
+
+.fa-volume-up {
+  font-size: 20px;
 }
 
 button:focus {
@@ -40,6 +45,7 @@ button:focus {
   color: white;
   font-family: "Roboto Mono", monospace;
   font-style: italic;
+  display: inline;
 }
 
 .meanings {
@@ -50,7 +56,6 @@ button:focus {
 
 .examples {
   font-style: italic;
-  text-align: right;
 }
 .speech {
   font-size: 22px;

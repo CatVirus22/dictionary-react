@@ -9,8 +9,11 @@ export default function Results(props) {
       <div className="row d-flex justify-content-center">
         <div className="col-sm-9 pe-0 ps-0">
           <h1 className="result">{props.result.word}</h1>
-          <div className="phonetic">{props.result.phonetic}</div>
-          <div className="meanings pt-3">
+          <div className="phonetic">{props.result.phonetic}</div>{" "}
+          <button className="btn sound-button" id="button-sound">
+            <i className="fas fa-volume-up"></i>
+          </button>
+          <div className="meanings pt-4">
             {props.result.meanings.map(function (meaning, index) {
               return (
                 <div key={index}>
