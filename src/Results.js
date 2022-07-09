@@ -26,6 +26,12 @@ export default function Results(props) {
       </div>
     );
   } else {
-    return null;
+    return (
+      <div className="row d-flex justify-content-center">
+        <div className="col-sm-9 pe-0 ps-0 pt-4">
+          <h1 className="noInput">Which word are you looking for?</h1>
+        </div>
+      </div>
+    );
   }
 }

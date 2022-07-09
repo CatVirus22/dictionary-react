@@ -30,7 +30,7 @@ button:focus {
   box-shadow: 0 0 0 rgb(255, 255, 255) !important;
 }
 
-/* Result */
+/* Results */
 
 .result {
   font-size: 48px;
@@ -40,7 +40,8 @@ button:focus {
   text-transform: capitalize;
 }
 
-.phonetic {
+.phonetic,
+.noInput {
   font-size: 26px;
   color: white;
   font-family: "Roboto Mono", monospace;
@@ -48,7 +49,8 @@ button:focus {
   display: inline;
 }
 
-.meanings {
+.meanings,
+.synonyms {
   font-size: 18px;
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -57,13 +59,16 @@ button:focus {
 .examples {
   font-style: italic;
 }
+
 .speech {
   font-size: 22px;
   color: salmon;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-transform: capitalize;
   font-style: oblique;
+  font-weight: bold;
 }
+
 /* Footer */
 
 .coder {
