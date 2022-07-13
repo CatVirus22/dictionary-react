@@ -60,7 +60,8 @@ button:focus {
   font-style: italic;
 }
 
-.speech {
+.speech,
+.synonym {
   font-size: 22px;
   color: salmon;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
